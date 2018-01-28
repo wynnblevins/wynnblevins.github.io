@@ -1,0 +1,49 @@
+/* start navbar styles */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+ul.navbar li {
+    float: right;
+}
+
+ul.navbar li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #4aaaa5;
+}
+/* end navbar styles */
+
+/* start sticky footer styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+
+.footer, .push {
+    height: 50px;
+}
+
+.footer {
+    background-color: gray;
+}
+/* end sticky footer styles */
+

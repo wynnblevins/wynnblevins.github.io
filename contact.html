@@ -6,25 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <!-- Navbar -->
         <ul class="navbar">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./portfolio.html">Portfolio</a></li>
             <li><a href="./contact.html">Contact</a></li>
         </ul>
-        <h2>Contact</h2>
+        <!-- "Push" div needed because of negative margin -->
+        <div class="push"></div>
+        
+        <!-- Contact form start -->
         <form>
-            Name
-            <input type="text"/>
-            Email
-            <input type="text"/>
-            Message
-            <textarea rows="5"></textarea>
+            <label for="nameInput">Name</label>
+            <input type="text" name="nameInput">
+            <label for="emailInput">Email</label>
+            <input type="text" name="emailInput">
+            <label for="messageTextArea">Message</label>
+            <textarea name="messageTextArea" rows="6"></textarea>
         </form>
+        <!-- Contact form stop -->
     </div>
     <footer class="footer"></footer>
 </body>
