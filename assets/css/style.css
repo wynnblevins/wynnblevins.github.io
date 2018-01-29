@@ -6,9 +6,11 @@ p, label, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 h1.pageTitle,
 h2.pageTitle {
     font-size: xx-large;
+    color: #4aaaa5; 
 }
 /* end font styles */
 
