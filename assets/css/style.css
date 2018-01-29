@@ -57,6 +57,7 @@ html, body {
 /* start layout styles */
 div.fullContent {
     width: 960px;
+    margin: 0 auto;
 }
 
 div.mainContent {
