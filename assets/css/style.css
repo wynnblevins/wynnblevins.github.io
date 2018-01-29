@@ -7,10 +7,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-h1.pageTitle,
-h2.pageTitle {
+h1.pageTitle {
     font-size: xx-large;
     color: #4aaaa5; 
+}
+
+h2.pageTitle {
+    font-size: xx-large;
+    color: #4aaaa5;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 /* end font styles */
 
@@ -94,6 +100,7 @@ div.fullContent {
 
 div.mainContentFullWidth {
     background-color: white;
+    padding-top: 2px;
 }
 
 div.mainContent {
@@ -123,8 +130,12 @@ textarea.contactFormInput {
 label.contactForm, 
 input.contactFormInput, 
 textarea.contactFormInput {
-    width: 90%;
-    margin: auto;
+    width: 95%;
+    margin: 15px 15px 0px 15px;
+}
+
+form.contactForm {
+    padding-bottom: 20px;
 }
 /* end contact form styles */
 
