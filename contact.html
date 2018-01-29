@@ -15,7 +15,7 @@
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="./portfolio.html">Portfolio</a></li>
             <li><a href="./index.html">About</a></li>
-            <li class="nameNavbarItem">Wynn Blevins</li>
+            <li class="nameNavbarItem"><h1>Wynn Blevins</h1></li>
         </ul>
         <!-- "Push" div needed because of negative margin -->
         <div class="push"></div>
@@ -26,12 +26,15 @@
                 
                 <!-- Contact form start -->
                 <form>
-                    <label for="nameInput">Name</label>
-                    <input type="text" class="contactFormInput" name="nameInput">
-                    <label for="emailInput">Email</label>
-                    <input type="text" name="emailInput" class="contactFormInput">
-                    <label for="messageTextArea">Message</label>
-                    <textarea name="messageTextArea" rows="6" class="contactFormInput"></textarea>
+                    <label for="nameInput" class="contactForm">Name</label>
+                    <input type="text" class="contactFormInput" 
+                        name="nameInput" placeholder="John Smith">
+                    <label for="emailInput" class="contactForm">Email</label>
+                    <input type="text" name="emailInput" 
+                        class="contactFormInput" placeholder="example@gmail.com">
+                    <label for="messageTextArea" class="contactForm">Message</label>
+                    <textarea name="messageTextArea" rows="6" 
+                        class="contactFormInput"></textarea>
                 </form>
                 <!-- Contact form stop -->
             </div>

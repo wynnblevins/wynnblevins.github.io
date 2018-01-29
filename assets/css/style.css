@@ -6,6 +6,10 @@ p, label, a {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+h1.pageTitle,
+h2.pageTitle {
+    font-size: xx-large;
+}
 /* end font styles */
 
 /* start navbar styles */
@@ -76,6 +80,7 @@ html, body {
 footer p.copyright {
     text-align: center;
     color: white;
+    line-height: 50px;
 }
 /* end sticky footer styles */
 
@@ -107,7 +112,16 @@ ul > li.sidebarItem {
 /* end layout styles */
 
 /* start contact form styles */
-label, input.contactFormInput, textarea.contactFormInput {
+label.contactForm, 
+input.contactFormInput, 
+textarea.contactFormInput {
     display: block;
+}
+
+label.contactForm, 
+input.contactFormInput, 
+textarea.contactFormInput {
+    width: 90%;
+    margin: auto;
 }
 /* end contact form styles */
