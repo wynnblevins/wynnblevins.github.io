@@ -60,6 +60,10 @@ div.fullContent {
     margin: 0 auto;
 }
 
+div.mainContentFullWidth {
+    background-color: white;
+}
+
 div.mainContent {
     float: left;
     background-color: white;
