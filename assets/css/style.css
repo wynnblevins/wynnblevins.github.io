@@ -53,3 +53,21 @@ html, body {
     background-color: gray;
 }
 /* end sticky footer styles */
+
+/* start layout styles */
+div.fullContent {
+    width: 960px;
+}
+
+div.mainContent {
+    float: left;
+    background-color: white;
+    width: 650px;
+}
+
+div.sidebar {
+    float: right;
+    background-color: white;
+    width: 270px;
+}
+/* end layout styles */
