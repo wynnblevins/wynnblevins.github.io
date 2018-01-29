@@ -1,5 +1,5 @@
 /* begin font styles */
-p, label {
+p, label, a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
 }
 
@@ -99,6 +99,10 @@ div.sidebar {
     float: right;
     background-color: white;
     width: 270px;
+}
+
+ul > li.sidebarItem {
+    display: inline-block;
 }
 /* end layout styles */
 
