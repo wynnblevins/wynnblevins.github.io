@@ -127,3 +127,10 @@ textarea.contactFormInput {
     margin: auto;
 }
 /* end contact form styles */
+
+div.line {
+    background-color: #ddd;
+    text-align: center;
+    height: 3px;
+    margin: 15px;
+}
