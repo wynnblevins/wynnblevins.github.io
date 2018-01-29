@@ -19,6 +19,16 @@ ul.navbar li a {
     text-decoration: none;
 }
 
+ul.navbar li.nameNavbarItem {
+    float: left;
+    background-color: #4aaaa5;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 ul.navbar li a:hover {
     background-color: #4aaaa5;
 }
