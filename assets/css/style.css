@@ -229,3 +229,15 @@ li.appLink {
     z-index: 1000; 
 }
 /* end demo app list styles */
+
+/* start submit button styles */
+button.submitBtn {
+    background-color: #4aaaa5;
+    color: #fff;
+    border: none;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 15px;   
+    font-size: 20px;
+}
+/* end submit button styles */
