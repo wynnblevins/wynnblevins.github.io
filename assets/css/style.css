@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h1.nameHeader {
+    font-size: 30px;
+}
+
 h1.pageTitle {
     font-size: xx-large;
     color: #4aaaa5; 
@@ -62,13 +66,17 @@ ul.navbar li.nameNavbarItem {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-left: 14%;
 }
 
 ul.navbar li a:hover {
     background-color: #4aaaa5;
 }
-/* end navbar styles */
 
+ul.navbar li.farRightNav {
+    margin-right: 14%;
+}
+/* end navbar styles */
 
 /* applying "jean-gray" background image */
 body {
@@ -83,8 +91,6 @@ html, body {
 }
 
 .wrapper {
-    /*min-height: 100%;*/
- 
     min-height: 120%;
     min-height: -webkit-calc(120%);
     min-height: -moz-calc(120%);
@@ -219,6 +225,7 @@ li.appLink {
 #double li.appLink span {
     display: block;
     margin-top: -45px; 
-    margin-bottom: 45px; 
+    margin-bottom: 45px;
+    z-index: 1000; 
 }
 /* end demo app list styles */
