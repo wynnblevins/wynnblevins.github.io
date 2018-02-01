@@ -211,10 +211,26 @@ ul.double {
     overflow:hidden;
 }
 
-li.appLink {
+li.appLinkTile {
     line-height:1.5em;
-    float:left;
     display:inline;
+    float: left;
+    position: relative;
+}
+
+a.appLink {
+    height: 128px;
+    width: 128px;
+    position: relative;
+}
+
+span.appTitle {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    margin: 0 auto;
+    background-color: #4aaaa5;
+    width: 100%;
 }
 
 #double li { 
