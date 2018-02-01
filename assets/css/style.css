@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.nameHeader {
     font-size: 30px;
+    font-weight: bold;
 }
 
 h1.pageTitle {
@@ -99,6 +100,7 @@ html, body {
     min-height: -moz-calc(120%);
     min-height: calc(120%);
     margin-bottom: -50px;
+    overflow: hidden;
 }
 
 .wrapper-normal {
@@ -106,9 +108,6 @@ html, body {
     min-height: -webkit-calc(100%);
     min-height: -moz-calc(100%);
     min-height: calc(100%);
-
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
 }
 
@@ -118,12 +117,14 @@ html, body {
 
 .footer {
     background-color: gray;
+    border-top: #4aaaa5 solid 5px;
 }
 
 footer p.copyright {
     text-align: center;
     color: white;
     line-height: 50px;
+    font-size: 10px;
 }
 /* end sticky footer styles */
 
