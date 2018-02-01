@@ -216,12 +216,14 @@ li.appLinkTile {
     display:inline;
     float: left;
     position: relative;
+    margin-bottom: 15px;
 }
 
 a.appLink {
-    height: 128px;
-    width: 128px;
+    height: 132px;
+    width: 132px;
     position: relative;
+    color: #fff; 
 }
 
 span.appTitle {
@@ -230,22 +232,18 @@ span.appTitle {
     right: 0px;
     margin: 0 auto;
     background-color: #4aaaa5;
-    width: 100%;
+    width: 130px;
+    border-right: #ddd 1px solid;
+    border-left: #ddd 1px solid;
+    border-bottom: #ddd 1px solid;
 }
 
 #double li { 
     width:50%;
 }
-
-#double li.appLink img {
-    border:1px solid #021a40;
-}
-
-#double li.appLink span {
-    display: block;
-    margin-top: -45px; 
-    margin-bottom: 45px;
-    z-index: 1000; 
+ 
+#double li.appLinkTile img {
+    border: 2px solid #ddd;
 }
 /* end demo app list styles */
 
