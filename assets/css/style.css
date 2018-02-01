@@ -98,9 +98,6 @@ html, body {
     min-height: -webkit-calc(120%);
     min-height: -moz-calc(120%);
     min-height: calc(120%);
-
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
     margin-bottom: -50px;
 }
 
@@ -176,6 +173,17 @@ textarea.contactFormInput {
     display: block;
     width: 95%;
     margin: 15px 15px 0px 15px;
+    padding: 3px;
+}
+
+button.submitBtn {
+    background-color: #4aaaa5;
+    color: #fff;
+    border: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 15px;   
+    font-size: 20px;
 }
 
 form.contactForm {
@@ -245,15 +253,3 @@ span.appTitle {
     border: 2px solid #ddd;
 }
 /* end demo app list styles */
-
-/* start submit button styles */
-button.submitBtn {
-    background-color: #4aaaa5;
-    color: #fff;
-    border: none;
-    margin-left: 15px;
-    margin-top: 10px;
-    padding: 15px;   
-    font-size: 20px;
-}
-/* end submit button styles */
